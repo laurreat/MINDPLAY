@@ -1,0 +1,1154 @@
+[
+	{
+		"id": "diseno-jovenes-facil-01",
+		"category": "Diseño",
+		"audience": "Jóvenes",
+		"difficulty": "Fácil",
+		"question": "¿Cuáles son los colores primarios del diseño tradicional?",
+		"answers": [
+			"Rojo, azul y amarillo",
+			"Rojo, verde y azul (RGB)",
+			"Negro, blanco y gris",
+			"Naranja, violeta y verde"
+		],
+		"correct_index": 0,
+		"feedback_correct": "¡Exacto! No se obtienen mezclando otros colores y son la base de la teoría del color.",
+		"feedback_incorrect": "Esos son los primarios de la luz (RGB), usados en pantallas, no en pigmentos."
+	},
+	{
+		"id": "diseno-jovenes-facil-02",
+		"category": "Diseño",
+		"audience": "Jóvenes",
+		"difficulty": "Fácil",
+		"question": "¿Qué forma tiene el logo de Apple?",
+		"answers": [
+			"Una manzana entera",
+			"Una manzana mordida",
+			"Una pera",
+			"Un círculo"
+		],
+		"correct_index": 1,
+		"feedback_correct": "¡Correcto! Es uno de los logos más reconocidos del mundo.",
+		"feedback_incorrect": "Casi, pero no es esa la forma icónica del logo."
+	},
+	{
+		"id": "diseno-jovenes-facil-03",
+		"category": "Diseño",
+		"audience": "Jóvenes",
+		"difficulty": "Fácil",
+		"question": "¿Qué es una \"paleta de colores\"?",
+		"answers": [
+			"Un programa para dibujar",
+			"Un tipo de pincel de arte",
+			"Los colores que usa un diseño",
+			"Una fuente para textos"
+		],
+		"correct_index": 2,
+		"feedback_correct": "¡Bien! Definir una paleta ayuda a mantener coherencia visual.",
+		"feedback_incorrect": "No, esa opción se refiere a una herramienta o elemento distinto."
+	},
+	{
+		"id": "diseno-jovenes-normal-01",
+		"category": "Diseño",
+		"audience": "Jóvenes",
+		"difficulty": "Normal",
+		"question": "¿Qué es la tipografía?",
+		"answers": [
+			"Un programa de edición",
+			"Un papel para imprimir",
+			"Un color de la paleta",
+			"El diseño de las letras"
+		],
+		"correct_index": 3,
+		"feedback_correct": "¡Correcto! La tipografía influye mucho en cómo se percibe un mensaje.",
+		"feedback_incorrect": "No, esa opción no tiene que ver con el diseño de letras."
+	},
+	{
+		"id": "diseno-jovenes-normal-02",
+		"category": "Diseño",
+		"audience": "Jóvenes",
+		"difficulty": "Normal",
+		"question": "¿Para qué sirve el espacio en blanco?",
+		"answers": [
+			"Para ordenar y facilitar la lectura",
+			"Para rellenar espacios sin propósito",
+			"Para tapar errores del diseño",
+			"Para gastar menos tinta"
+		],
+		"correct_index": 0,
+		"feedback_correct": "¡Exacto! El espacio en blanco mejora la claridad y jerarquía visual.",
+		"feedback_incorrect": "No es su función principal; el espacio en blanco es intencional, no relleno."
+	},
+	{
+		"id": "diseno-jovenes-normal-03",
+		"category": "Diseño",
+		"audience": "Jóvenes",
+		"difficulty": "Normal",
+		"question": "¿Qué software es comúnmente usado para diseño gráfico?",
+		"answers": [
+			"La hoja de cálculo Excel",
+			"Adobe Photoshop / Illustrator",
+			"El navegador Google Chrome",
+			"El reproductor Windows Media"
+		],
+		"correct_index": 1,
+		"feedback_correct": "¡Correcto! Son herramientas estándar en la industria del diseño.",
+		"feedback_incorrect": "No, esa herramienta se usa para otro propósito."
+	},
+	{
+		"id": "diseno-jovenes-dificil-01",
+		"category": "Diseño",
+		"audience": "Jóvenes",
+		"difficulty": "Difícil",
+		"question": "¿Qué es el \"contraste\" en diseño?",
+		"answers": [
+			"La repetición de un mismo color",
+			"Usar una sola fuente en todo",
+			"Diferenciar elementos para resaltarlos",
+			"Quitar todos los colores"
+		],
+		"correct_index": 2,
+		"feedback_correct": "¡Bien! El contraste ayuda a dirigir la atención del usuario.",
+		"feedback_incorrect": "No, esa opción describe otro principio de diseño."
+	},
+	{
+		"id": "diseno-jovenes-dificil-02",
+		"category": "Diseño",
+		"audience": "Jóvenes",
+		"difficulty": "Difícil",
+		"question": "¿Qué significa \"UX\" en diseño digital?",
+		"answers": [
+			"Un diseño extremo",
+			"Una interfaz extendida",
+			"Un tipo de archivo",
+			"Experiencia de usuario"
+		],
+		"correct_index": 3,
+		"feedback_correct": "¡Correcto! UX se centra en cómo se siente y funciona un producto para quien lo usa.",
+		"feedback_incorrect": "No, esa no es la definición de UX."
+	},
+	{
+		"id": "diseno-jovenes-dificil-03",
+		"category": "Diseño",
+		"audience": "Jóvenes",
+		"difficulty": "Difícil",
+		"question": "¿Qué es un \"mockup\"?",
+		"answers": [
+			"Una maqueta visual del diseño final",
+			"El código final de una página web",
+			"Un tipo de fuente tipográfica",
+			"Una técnica de impresión gráfica"
+		],
+		"correct_index": 0,
+		"feedback_correct": "¡Exacto! Sirve para visualizar el diseño antes de desarrollarlo.",
+		"feedback_incorrect": "No, un mockup es una maqueta visual, no eso."
+	},
+	{
+		"id": "diseno-adultos-facil-01",
+		"category": "Diseño",
+		"audience": "Adultos",
+		"difficulty": "Fácil",
+		"question": "¿Qué es el diseño minimalista?",
+		"answers": [
+			"Un estilo recargado y colorido",
+			"Un estilo con solo lo esencial",
+			"Un tipo de fuente tipográfica",
+			"Un software para diseñar"
+		],
+		"correct_index": 1,
+		"feedback_correct": "¡Correcto! \"Menos es más\" resume bien su filosofía.",
+		"feedback_incorrect": "No, es justo lo contrario a la idea minimalista."
+	},
+	{
+		"id": "diseno-adultos-facil-02",
+		"category": "Diseño",
+		"audience": "Adultos",
+		"difficulty": "Fácil",
+		"question": "¿Qué significa \"logo\"?",
+		"answers": [
+			"Un tipo de fuente para textos",
+			"Un formato de imagen digital",
+			"Símbolo que identifica una marca",
+			"El color oficial de una marca"
+		],
+		"correct_index": 2,
+		"feedback_correct": "¡Bien! El logo es una pieza clave de la identidad visual.",
+		"feedback_incorrect": "No, esa opción no define lo que es un logo."
+	},
+	{
+		"id": "diseno-adultos-facil-03",
+		"category": "Diseño",
+		"audience": "Adultos",
+		"difficulty": "Fácil",
+		"question": "¿Qué es una marca (branding)?",
+		"answers": [
+			"Un tipo de impresión gráfica",
+			"Un programa para diseñar",
+			"Un formato de archivo digital",
+			"La identidad visual y conceptual"
+		],
+		"correct_index": 3,
+		"feedback_correct": "¡Correcto! El branding va más allá del logo, incluye valores y percepción.",
+		"feedback_incorrect": "No, esa opción no corresponde a este concepto."
+	},
+	{
+		"id": "diseno-adultos-normal-01",
+		"category": "Diseño",
+		"audience": "Adultos",
+		"difficulty": "Normal",
+		"question": "¿Qué principio guía la atención según tamaño y disposición?",
+		"answers": [
+			"Jerarquía visual",
+			"Contraste",
+			"Alineación",
+			"Repetición"
+		],
+		"correct_index": 0,
+		"feedback_correct": "¡Correcto! La jerarquía organiza los elementos según su importancia.",
+		"feedback_incorrect": "Esa opción es un principio relacionado, pero no cumple esa función específica."
+	},
+	{
+		"id": "diseno-adultos-normal-02",
+		"category": "Diseño",
+		"audience": "Adultos",
+		"difficulty": "Normal",
+		"question": "¿Qué es un sistema de retícula (grid)?",
+		"answers": [
+			"Un tipo de fuente para títulos",
+			"Una retícula que ordena el contenido",
+			"Un filtro de color para fotos",
+			"Una técnica de animación"
+		],
+		"correct_index": 1,
+		"feedback_correct": "¡Exacto! Ayuda a mantener consistencia y orden en el diseño.",
+		"feedback_incorrect": "No, esa opción no describe una estructura organizativa."
+	},
+	{
+		"id": "diseno-adultos-normal-03",
+		"category": "Diseño",
+		"audience": "Adultos",
+		"difficulty": "Normal",
+		"question": "¿Qué diferencia hay entre diseño UX y UI?",
+		"answers": [
+			"Son exactamente lo mismo",
+			"UI se enfoca en la programación",
+			"UX mira la experiencia, UI lo visual",
+			"UX solo aplica a apps móviles"
+		],
+		"correct_index": 2,
+		"feedback_correct": "¡Correcto! Ambos trabajan juntos pero cubren aspectos distintos.",
+		"feedback_incorrect": "No, existe una diferencia clara entre ambos enfoques."
+	},
+	{
+		"id": "diseno-adultos-dificil-01",
+		"category": "Diseño",
+		"audience": "Adultos",
+		"difficulty": "Difícil",
+		"question": "¿Qué son las leyes de la Gestalt?",
+		"answers": [
+			"Una técnica de impresión offset",
+			"Un programa de diseño 3D",
+			"Una norma de derechos de autor",
+			"Principios sobre percepción visual"
+		],
+		"correct_index": 3,
+		"feedback_correct": "¡Exacto! Explican por qué percibimos ciertos elementos como agrupados o relacionados.",
+		"feedback_incorrect": "No, esa opción no se relaciona con la percepción visual."
+	},
+	{
+		"id": "diseno-adultos-dificil-02",
+		"category": "Diseño",
+		"audience": "Adultos",
+		"difficulty": "Difícil",
+		"question": "¿Qué es el diseño atómico?",
+		"answers": [
+			"Armar interfaces con piezas reutilizables",
+			"Un estilo inspirado en la física nuclear",
+			"Un sistema de impresión 3D",
+			"Un software exclusivo de Adobe"
+		],
+		"correct_index": 0,
+		"feedback_correct": "¡Correcto! Va de átomos a organismos, construyendo interfaces de forma escalable.",
+		"feedback_incorrect": "No, el nombre es metafórico, no se refiere a eso."
+	},
+	{
+		"id": "diseno-adultos-dificil-03",
+		"category": "Diseño",
+		"audience": "Adultos",
+		"difficulty": "Difícil",
+		"question": "¿Qué es el \"kerning\" en tipografía?",
+		"answers": [
+			"El tamaño de la fuente",
+			"El ajuste entre letras",
+			"El grosor de la letra",
+			"El color de la letra"
+		],
+		"correct_index": 1,
+		"feedback_correct": "¡Bien! Un buen kerning mejora la legibilidad del texto.",
+		"feedback_incorrect": "No, esa opción describe otro atributo tipográfico."
+	},
+	{
+		"id": "tecnologia-jovenes-facil-01",
+		"category": "Tecnología",
+		"audience": "Jóvenes",
+		"difficulty": "Fácil",
+		"question": "¿Qué significa \"wifi\"?",
+		"answers": [
+			"Un tipo de cable de red",
+			"Un programa antivirus",
+			"Conexión inalámbrica a internet",
+			"Un sistema operativo de PC"
+		],
+		"correct_index": 2,
+		"feedback_correct": "¡Correcto! Permite conectar dispositivos sin cables.",
+		"feedback_incorrect": "No, esa opción describe otra tecnología distinta."
+	},
+	{
+		"id": "tecnologia-jovenes-facil-02",
+		"category": "Tecnología",
+		"audience": "Jóvenes",
+		"difficulty": "Fácil",
+		"question": "¿Qué es un \"smartphone\"?",
+		"answers": [
+			"Una computadora de escritorio",
+			"Un accesorio de auriculares",
+			"Un cargador de celular",
+			"Un teléfono con internet y apps"
+		],
+		"correct_index": 3,
+		"feedback_correct": "¡Bien! Combina funciones de teléfono y computadora.",
+		"feedback_incorrect": "No, esa opción no corresponde a un smartphone."
+	},
+	{
+		"id": "tecnologia-jovenes-facil-03",
+		"category": "Tecnología",
+		"audience": "Jóvenes",
+		"difficulty": "Fácil",
+		"question": "¿Qué es una \"app\"?",
+		"answers": [
+			"Un programa para el celular",
+			"Un virus informático",
+			"Un cable USB de datos",
+			"Una red social exclusiva"
+		],
+		"correct_index": 0,
+		"feedback_correct": "¡Correcto! Las apps nos permiten realizar tareas específicas desde el celular.",
+		"feedback_incorrect": "No, esa opción no define lo que es una app."
+	},
+	{
+		"id": "tecnologia-jovenes-normal-01",
+		"category": "Tecnología",
+		"audience": "Jóvenes",
+		"difficulty": "Normal",
+		"question": "¿Qué significa \"RAM\"?",
+		"answers": [
+			"Memoria de guardado permanente",
+			"Memoria de acceso aleatorio",
+			"Un tipo de procesador",
+			"Un programa antivirus"
+		],
+		"correct_index": 1,
+		"feedback_correct": "¡Correcto! La RAM almacena datos temporalmente mientras el dispositivo está en uso.",
+		"feedback_incorrect": "No, esa opción describe otro componente distinto."
+	},
+	{
+		"id": "tecnologia-jovenes-normal-02",
+		"category": "Tecnología",
+		"audience": "Jóvenes",
+		"difficulty": "Normal",
+		"question": "¿Qué es el \"Bluetooth\"?",
+		"answers": [
+			"Un cable para video HDMI",
+			"Un sistema operativo completo",
+			"Conexión inalámbrica de corto alcance",
+			"Un formato de imagen digital"
+		],
+		"correct_index": 2,
+		"feedback_correct": "¡Bien! Se usa para conectar audífonos, teclados, etc.",
+		"feedback_incorrect": "No, esa opción no corresponde a esta tecnología."
+	},
+	{
+		"id": "tecnologia-jovenes-normal-03",
+		"category": "Tecnología",
+		"audience": "Jóvenes",
+		"difficulty": "Normal",
+		"question": "¿Qué diferencia hay entre hardware y software?",
+		"answers": [
+			"No hay diferencia entre ambos",
+			"Hardware: programas; software: pantalla",
+			"Software: solo videojuegos",
+			"Hardware: lo físico; software: programas"
+		],
+		"correct_index": 3,
+		"feedback_correct": "¡Correcto! Uno es tangible y el otro es lógico/digital.",
+		"feedback_incorrect": "No, existe una diferencia clara entre ambos conceptos."
+	},
+	{
+		"id": "tecnologia-jovenes-dificil-01",
+		"category": "Tecnología",
+		"audience": "Jóvenes",
+		"difficulty": "Difícil",
+		"question": "¿Qué es la inteligencia artificial (IA)?",
+		"answers": [
+			"Sistemas que simulan inteligencia humana",
+			"Un género de videojuegos",
+			"Un robot físico exclusivamente",
+			"Un programa antivirus avanzado"
+		],
+		"correct_index": 0,
+		"feedback_correct": "¡Exacto! La IA puede aprender, razonar y tomar decisiones.",
+		"feedback_incorrect": "No, esa opción es una aplicación posible, no la definición."
+	},
+	{
+		"id": "tecnologia-jovenes-dificil-02",
+		"category": "Tecnología",
+		"audience": "Jóvenes",
+		"difficulty": "Difícil",
+		"question": "¿Qué es un \"algoritmo\"?",
+		"answers": [
+			"Un tipo de virus informático",
+			"Secuencia de pasos que resuelve problemas",
+			"Un componente físico de hardware",
+			"Un lenguaje de programación específico"
+		],
+		"correct_index": 1,
+		"feedback_correct": "¡Correcto! Los algoritmos son la base de la programación.",
+		"feedback_incorrect": "No, esa opción no describe un algoritmo."
+	},
+	{
+		"id": "tecnologia-jovenes-dificil-03",
+		"category": "Tecnología",
+		"audience": "Jóvenes",
+		"difficulty": "Difícil",
+		"question": "¿Qué significa \"IoT\" (Internet de las Cosas)?",
+		"answers": [
+			"Una red social popular",
+			"Un programa antivirus",
+			"Objetos conectados a internet",
+			"Un lenguaje para programar"
+		],
+		"correct_index": 2,
+		"feedback_correct": "¡Bien! Ejemplos: electrodomésticos inteligentes, relojes, sensores, etc.",
+		"feedback_incorrect": "No, esa opción no corresponde a este concepto."
+	},
+	{
+		"id": "tecnologia-adultos-facil-01",
+		"category": "Tecnología",
+		"audience": "Adultos",
+		"difficulty": "Fácil",
+		"question": "¿Qué es un navegador web?",
+		"answers": [
+			"Un programa antivirus",
+			"Un dispositivo de hardware",
+			"Un sistema operativo de PC",
+			"Un programa para ver páginas web"
+		],
+		"correct_index": 3,
+		"feedback_correct": "¡Correcto! Ejemplos: Chrome, Firefox, Safari.",
+		"feedback_incorrect": "No, esa opción no corresponde a un navegador."
+	},
+	{
+		"id": "tecnologia-adultos-facil-02",
+		"category": "Tecnología",
+		"audience": "Adultos",
+		"difficulty": "Fácil",
+		"question": "¿Qué significa \"USB\"?",
+		"answers": [
+			"Estándar para conectar dispositivos",
+			"Un virus informático",
+			"Un formato de video digital",
+			"Una red de internet wifi"
+		],
+		"correct_index": 0,
+		"feedback_correct": "¡Bien! Es un estándar para conectar dispositivos y transferir datos.",
+		"feedback_incorrect": "No, esa opción no define lo que es USB."
+	},
+	{
+		"id": "tecnologia-adultos-facil-03",
+		"category": "Tecnología",
+		"audience": "Adultos",
+		"difficulty": "Fácil",
+		"question": "¿Qué es la \"nube\"?",
+		"answers": [
+			"Un disco duro de la PC",
+			"Archivos y servicios en internet",
+			"Un monitor de computadora",
+			"Un cable de red ethernet"
+		],
+		"correct_index": 1,
+		"feedback_correct": "¡Correcto! Permite guardar y acceder a datos desde cualquier lugar con internet.",
+		"feedback_incorrect": "No, la nube no es un componente físico local."
+	},
+	{
+		"id": "tecnologia-adultos-normal-01",
+		"category": "Tecnología",
+		"audience": "Adultos",
+		"difficulty": "Normal",
+		"question": "¿En qué se diferencia la nube del almacenamiento local?",
+		"answers": [
+			"La nube solo funciona sin conexión",
+			"El almacenamiento local es siempre más rápido",
+			"Datos guardados en servidores de internet",
+			"No hay ninguna diferencia real"
+		],
+		"correct_index": 2,
+		"feedback_correct": "¡Correcto! Por eso puedes acceder a tus archivos desde cualquier dispositivo conectado.",
+		"feedback_incorrect": "Al contrario: la nube requiere conexión a internet para funcionar."
+	},
+	{
+		"id": "tecnologia-adultos-normal-02",
+		"category": "Tecnología",
+		"audience": "Adultos",
+		"difficulty": "Normal",
+		"question": "¿Qué es un \"firewall\"?",
+		"answers": [
+			"Un virus informático",
+			"Un cable para conectar PC",
+			"Un programa para diseñar",
+			"Un filtro de seguridad de la red"
+		],
+		"correct_index": 3,
+		"feedback_correct": "¡Bien! Protege una red de accesos no autorizados.",
+		"feedback_incorrect": "No, esa opción no corresponde a un firewall."
+	},
+	{
+		"id": "tecnologia-adultos-normal-03",
+		"category": "Tecnología",
+		"audience": "Adultos",
+		"difficulty": "Normal",
+		"question": "¿Qué es la encriptación?",
+		"answers": [
+			"Cifrar información para protegerla",
+			"Un método para comprimir archivos",
+			"Una red de conexión wifi",
+			"Un formato de imagen digital"
+		],
+		"correct_index": 0,
+		"feedback_correct": "¡Correcto! Solo quien tiene la clave puede leer la información original.",
+		"feedback_incorrect": "No, esa opción tiene otro propósito distinto."
+	},
+	{
+		"id": "tecnologia-adultos-dificil-01",
+		"category": "Tecnología",
+		"audience": "Adultos",
+		"difficulty": "Difícil",
+		"question": "¿Qué es \"blockchain\"?",
+		"answers": [
+			"Una red social de internet",
+			"Registro de transacciones descentralizado",
+			"Un programa antivirus avanzado",
+			"Un lenguaje para programar"
+		],
+		"correct_index": 1,
+		"feedback_correct": "¡Exacto! Es la base tecnológica de muchas criptomonedas.",
+		"feedback_incorrect": "No, esa opción no describe blockchain."
+	},
+	{
+		"id": "tecnologia-adultos-dificil-02",
+		"category": "Tecnología",
+		"audience": "Adultos",
+		"difficulty": "Difícil",
+		"question": "¿Qué diferencia hay entre machine learning y deep learning?",
+		"answers": [
+			"Son dos nombres de lo mismo",
+			"ML es exclusivo de videojuegos",
+			"Un tipo de ML con redes neuronales",
+			"Deep learning no usa datos"
+		],
+		"correct_index": 2,
+		"feedback_correct": "¡Correcto! Deep learning es una especialización dentro del machine learning.",
+		"feedback_incorrect": "No, hay una relación jerárquica clara entre ambos."
+	},
+	{
+		"id": "tecnologia-adultos-dificil-03",
+		"category": "Tecnología",
+		"audience": "Adultos",
+		"difficulty": "Difícil",
+		"question": "¿Qué es la \"computación cuántica\"?",
+		"answers": [
+			"Un disco duro más rápido",
+			"Un software de edición de video",
+			"Un protocolo de internet",
+			"Usar qubits en vez de bits"
+		],
+		"correct_index": 3,
+		"feedback_correct": "¡Bien! Los qubits permiten estados múltiples simultáneos, a diferencia de los bits tradicionales.",
+		"feedback_incorrect": "No, esa opción no corresponde a este concepto avanzado."
+	},
+	{
+		"id": "videojuegos-jovenes-facil-01",
+		"category": "Videojuegos",
+		"audience": "Jóvenes",
+		"difficulty": "Fácil",
+		"question": "¿Cómo se le llama al personaje que controla el jugador?",
+		"answers": [
+			"Avatar o protagonista",
+			"Un personaje NPC",
+			"El boss final",
+			"Un sprite de fondo"
+		],
+		"correct_index": 0,
+		"feedback_correct": "¡Correcto! El avatar representa al jugador dentro del juego.",
+		"feedback_incorrect": "No, esa opción se refiere a un personaje no controlado por el jugador."
+	},
+	{
+		"id": "videojuegos-jovenes-facil-02",
+		"category": "Videojuegos",
+		"audience": "Jóvenes",
+		"difficulty": "Fácil",
+		"question": "¿Qué es un \"nivel\" en un videojuego?",
+		"answers": [
+			"Un tipo de personaje",
+			"Una etapa o fase del juego",
+			"Un botón del control",
+			"Un género de videojuego"
+		],
+		"correct_index": 1,
+		"feedback_correct": "¡Bien! Los niveles suelen aumentar en dificultad conforme se avanza.",
+		"feedback_incorrect": "No, esa opción no define lo que es un nivel."
+	},
+	{
+		"id": "videojuegos-jovenes-facil-03",
+		"category": "Videojuegos",
+		"audience": "Jóvenes",
+		"difficulty": "Fácil",
+		"question": "¿Qué significa \"game over\"?",
+		"answers": [
+			"El inicio de la partida",
+			"Una pausa del juego",
+			"Fin del juego tras perder",
+			"Un logro desbloqueado"
+		],
+		"correct_index": 2,
+		"feedback_correct": "¡Correcto! Indica que la partida ha terminado.",
+		"feedback_incorrect": "No, esa opción no corresponde a \"game over\"."
+	},
+	{
+		"id": "videojuegos-jovenes-normal-01",
+		"category": "Videojuegos",
+		"audience": "Jóvenes",
+		"difficulty": "Normal",
+		"question": "¿Qué es un NPC?",
+		"answers": [
+			"El personaje principal",
+			"Un tipo de consola",
+			"Un género de videojuego",
+			"Personaje no jugable"
+		],
+		"correct_index": 3,
+		"feedback_correct": "¡Correcto! Su comportamiento es manejado por el juego, no por el jugador.",
+		"feedback_incorrect": "No, esa opción no corresponde a un NPC."
+	},
+	{
+		"id": "videojuegos-jovenes-normal-02",
+		"category": "Videojuegos",
+		"audience": "Jóvenes",
+		"difficulty": "Normal",
+		"question": "¿Qué es un \"speedrun\"?",
+		"answers": [
+			"Completar un juego en tiempo récord",
+			"Un accesorio de control",
+			"Un modo para varios jugadores",
+			"Un juego de terror"
+		],
+		"correct_index": 0,
+		"feedback_correct": "¡Bien! Es una práctica popular en la comunidad gamer y en eventos como los \"speedrun marathons\".",
+		"feedback_incorrect": "No, esa opción no describe un speedrun."
+	},
+	{
+		"id": "videojuegos-jovenes-normal-03",
+		"category": "Videojuegos",
+		"audience": "Jóvenes",
+		"difficulty": "Normal",
+		"question": "¿Qué significa \"co-op\" en videojuegos?",
+		"answers": [
+			"Jugar en modo competitivo",
+			"Jugar en modo cooperativo",
+			"Un estilo de gráficos",
+			"Un botón del control"
+		],
+		"correct_index": 1,
+		"feedback_correct": "¡Correcto! Los jugadores colaboran para lograr un objetivo común.",
+		"feedback_incorrect": "No, esa opción no corresponde al modo cooperativo."
+	},
+	{
+		"id": "videojuegos-jovenes-dificil-01",
+		"category": "Videojuegos",
+		"audience": "Jóvenes",
+		"difficulty": "Difícil",
+		"question": "¿Qué es un \"roguelike\"?",
+		"answers": [
+			"Un juego de mesa clásico",
+			"Una consola portátil",
+			"Niveles al azar y muerte permanente",
+			"Un género de música"
+		],
+		"correct_index": 2,
+		"feedback_correct": "¡Exacto! Cada partida suele ser distinta y perder implica empezar de nuevo.",
+		"feedback_incorrect": "No, esa opción no corresponde a este género."
+	},
+	{
+		"id": "videojuegos-jovenes-dificil-02",
+		"category": "Videojuegos",
+		"audience": "Jóvenes",
+		"difficulty": "Difícil",
+		"question": "¿Qué significa \"FPS\" al hablar de rendimiento en videojuegos?",
+		"answers": [
+			"Disparos por segundo",
+			"Un género de terror",
+			"Puntos de experiencia",
+			"Fotogramas por segundo"
+		],
+		"correct_index": 3,
+		"feedback_correct": "¡Correcto! Mide la fluidez visual del juego.",
+		"feedback_incorrect": "No, en este contexto FPS no se refiere a eso."
+	},
+	{
+		"id": "videojuegos-jovenes-dificil-03",
+		"category": "Videojuegos",
+		"audience": "Jóvenes",
+		"difficulty": "Difícil",
+		"question": "¿Qué es el \"matchmaking\"?",
+		"answers": [
+			"Emparejar jugadores online",
+			"Un arma del juego",
+			"Un modo de un jugador",
+			"Un juego de rol"
+		],
+		"correct_index": 0,
+		"feedback_correct": "¡Bien! Suele basarse en nivel de habilidad o ranking.",
+		"feedback_incorrect": "No, esa opción no corresponde al matchmaking."
+	},
+	{
+		"id": "videojuegos-adultos-facil-01",
+		"category": "Videojuegos",
+		"audience": "Adultos",
+		"difficulty": "Fácil",
+		"question": "¿Qué significa \"RPG\"?",
+		"answers": [
+			"Videojuego de disparos",
+			"Videojuego de rol",
+			"Videojuego de deportes",
+			"Videojuego de carreras"
+		],
+		"correct_index": 1,
+		"feedback_correct": "¡Correcto! RPG viene de \"Role-Playing Game\".",
+		"feedback_incorrect": "No, esa opción corresponde a otro género."
+	},
+	{
+		"id": "videojuegos-adultos-facil-02",
+		"category": "Videojuegos",
+		"audience": "Adultos",
+		"difficulty": "Fácil",
+		"question": "¿Qué es un \"control\" o \"joystick\"?",
+		"answers": [
+			"Una pantalla de juego",
+			"Un cable de conexión",
+			"Dispositivo para jugar",
+			"Un programa del juego"
+		],
+		"correct_index": 2,
+		"feedback_correct": "¡Bien! Es la interfaz física entre el jugador y el juego.",
+		"feedback_incorrect": "No, esa opción no corresponde a un control."
+	},
+	{
+		"id": "videojuegos-adultos-facil-03",
+		"category": "Videojuegos",
+		"audience": "Adultos",
+		"difficulty": "Fácil",
+		"question": "¿Qué es una \"consola\" de videojuegos?",
+		"answers": [
+			"Una computadora de oficina",
+			"Un programa antivirus de PC",
+			"Un accesorio de audio gamer",
+			"Máquina solo para jugar"
+		],
+		"correct_index": 3,
+		"feedback_correct": "¡Correcto! Ejemplos: PlayStation, Xbox, Nintendo Switch.",
+		"feedback_incorrect": "No, esa opción no corresponde a una consola."
+	},
+	{
+		"id": "videojuegos-adultos-normal-01",
+		"category": "Videojuegos",
+		"audience": "Adultos",
+		"difficulty": "Normal",
+		"question": "¿Qué es el juego en la nube?",
+		"answers": [
+			"Jugar por streaming",
+			"Un juego sandbox",
+			"Un speedrun",
+			"Un roguelike"
+		],
+		"correct_index": 0,
+		"feedback_correct": "¡Exacto! Permite jugar en tiempo real sin instalar el juego completo.",
+		"feedback_incorrect": "Ese término define un estilo o mecánica de juego, no una forma de distribución técnica."
+	},
+	{
+		"id": "videojuegos-adultos-normal-02",
+		"category": "Videojuegos",
+		"audience": "Adultos",
+		"difficulty": "Normal",
+		"question": "¿Qué es un juego \"sandbox\"?",
+		"answers": [
+			"Solo disparos y acción",
+			"Libertad para explorar y crear",
+			"Solo para un jugador",
+			"Solo juegos de cartas"
+		],
+		"correct_index": 1,
+		"feedback_correct": "¡Correcto! Ejemplos: Minecraft, GTA en su modo libre.",
+		"feedback_incorrect": "No, esa opción no describe un sandbox."
+	},
+	{
+		"id": "videojuegos-adultos-normal-03",
+		"category": "Videojuegos",
+		"audience": "Adultos",
+		"difficulty": "Normal",
+		"question": "¿Qué significa \"DLC\"?",
+		"answers": [
+			"Una consola de videojuegos",
+			"Un video de presentación",
+			"Contenido extra descargable",
+			"Un género de acción"
+		],
+		"correct_index": 2,
+		"feedback_correct": "¡Bien! Amplía el contenido original de un juego tras su lanzamiento.",
+		"feedback_incorrect": "No, esa opción no corresponde a DLC."
+	},
+	{
+		"id": "videojuegos-adultos-dificil-01",
+		"category": "Videojuegos",
+		"audience": "Adultos",
+		"difficulty": "Difícil",
+		"question": "¿Qué es un motor de videojuegos?",
+		"answers": [
+			"Una tarjeta de video",
+			"Un género de videojuegos",
+			"Un control para jugar",
+			"Programa base para crear juegos"
+		],
+		"correct_index": 3,
+		"feedback_correct": "¡Correcto! Ejemplos: Unity, Unreal Engine.",
+		"feedback_incorrect": "No, esa opción no corresponde a un motor de videojuego."
+	},
+	{
+		"id": "videojuegos-adultos-dificil-02",
+		"category": "Videojuegos",
+		"audience": "Adultos",
+		"difficulty": "Difícil",
+		"question": "¿Qué es \"procedural generation\"?",
+		"answers": [
+			"Contenido creado por algoritmos",
+			"Jugar con amigos online",
+			"Un juego de terror",
+			"Un sistema de trofeos"
+		],
+		"correct_index": 0,
+		"feedback_correct": "¡Exacto! Se usa para generar mundos, niveles o mapas de forma automática.",
+		"feedback_incorrect": "No, esa opción no describe este concepto."
+	},
+	{
+		"id": "videojuegos-adultos-dificil-03",
+		"category": "Videojuegos",
+		"audience": "Adultos",
+		"difficulty": "Difícil",
+		"question": "¿Qué diferencia hay entre \"hitbox\" y \"hurtbox\"?",
+		"answers": [
+			"Son el mismo concepto con distinto nombre",
+			"Hitbox ataca, hurtbox recibe daño",
+			"Hitbox es solo decorativo",
+			"Hurtbox se usa solo en juegos de carreras"
+		],
+		"correct_index": 1,
+		"feedback_correct": "¡Correcto! Ambos son fundamentales en el diseño de combate de videojuegos.",
+		"feedback_incorrect": "No, existe una diferencia técnica clara entre ambos."
+	},
+	{
+		"id": "cultura-digital-jovenes-facil-01",
+		"category": "Cultura Digital",
+		"audience": "Jóvenes",
+		"difficulty": "Fácil",
+		"question": "¿Qué es un \"meme\"?",
+		"answers": [
+			"Un tipo de virus informático",
+			"Un formato de archivo de audio",
+			"Humor que se comparte en internet",
+			"Una red social popular"
+		],
+		"correct_index": 2,
+		"feedback_correct": "¡Correcto! Los memes son una forma popular de comunicación en internet.",
+		"feedback_incorrect": "No, esa opción no corresponde a un meme."
+	},
+	{
+		"id": "cultura-digital-jovenes-facil-02",
+		"category": "Cultura Digital",
+		"audience": "Jóvenes",
+		"difficulty": "Fácil",
+		"question": "¿Qué es un \"influencer\"?",
+		"answers": [
+			"Un virus de internet",
+			"Un programa para editar",
+			"Un teléfono móvil",
+			"Persona influyente en redes"
+		],
+		"correct_index": 3,
+		"feedback_correct": "¡Bien! Suelen usar su influencia para promocionar productos o ideas.",
+		"feedback_incorrect": "No, esa opción no corresponde a un influencer."
+	},
+	{
+		"id": "cultura-digital-jovenes-facil-03",
+		"category": "Cultura Digital",
+		"audience": "Jóvenes",
+		"difficulty": "Fácil",
+		"question": "¿Qué significa \"viral\" en internet?",
+		"answers": [
+			"Contenido muy compartido",
+			"Un tipo de virus informático",
+			"Un formato de video exclusivo",
+			"Una app de mensajería"
+		],
+		"correct_index": 0,
+		"feedback_correct": "¡Correcto! Un contenido viral alcanza a muchas personas rápidamente.",
+		"feedback_incorrect": "No, en este contexto no se refiere a un virus informático."
+	},
+	{
+		"id": "cultura-digital-jovenes-normal-01",
+		"category": "Cultura Digital",
+		"audience": "Jóvenes",
+		"difficulty": "Normal",
+		"question": "¿Qué es un \"hashtag\"?",
+		"answers": [
+			"Un emoji de carita",
+			"Texto con # que agrupa temas",
+			"Un programa de seguridad",
+			"Un formato de foto"
+		],
+		"correct_index": 1,
+		"feedback_correct": "¡Correcto! Facilita encontrar contenido relacionado en redes sociales.",
+		"feedback_incorrect": "No, esa opción no corresponde a un hashtag."
+	},
+	{
+		"id": "cultura-digital-jovenes-normal-02",
+		"category": "Cultura Digital",
+		"audience": "Jóvenes",
+		"difficulty": "Normal",
+		"question": "¿Qué es el \"streaming\" en vivo?",
+		"answers": [
+			"Ver un video descargado",
+			"Un videojuego online",
+			"Video en vivo por internet",
+			"Un formato de archivo de audio"
+		],
+		"correct_index": 2,
+		"feedback_correct": "¡Bien! Plataformas como Twitch o YouTube Live lo usan.",
+		"feedback_incorrect": "No, esa opción describe otra acción distinta."
+	},
+	{
+		"id": "cultura-digital-jovenes-normal-03",
+		"category": "Cultura Digital",
+		"audience": "Jóvenes",
+		"difficulty": "Normal",
+		"question": "¿Qué es la \"netiqueta\"?",
+		"answers": [
+			"Una red social famosa",
+			"Un sistema de seguridad",
+			"Un lenguaje de programación",
+			"Buenos modales en internet"
+		],
+		"correct_index": 3,
+		"feedback_correct": "¡Correcto! Promueve el respeto y la buena convivencia digital.",
+		"feedback_incorrect": "No, esa opción no corresponde a la netiqueta."
+	},
+	{
+		"id": "cultura-digital-jovenes-dificil-01",
+		"category": "Cultura Digital",
+		"audience": "Jóvenes",
+		"difficulty": "Difícil",
+		"question": "¿Qué es la \"cancelación\" (cancel culture)?",
+		"answers": [
+			"Dejar de apoyar a alguien polémico",
+			"Solo censura del gobierno",
+			"Un algoritmo de redes sociales",
+			"Un formato de contenido viral"
+		],
+		"correct_index": 0,
+		"feedback_correct": "¡Correcto! Es un fenómeno social propio de la cultura digital actual.",
+		"feedback_incorrect": "No, esa opción no describe este fenómeno."
+	},
+	{
+		"id": "cultura-digital-jovenes-dificil-02",
+		"category": "Cultura Digital",
+		"audience": "Jóvenes",
+		"difficulty": "Difícil",
+		"question": "¿Qué es un \"algoritmo de recomendación\"?",
+		"answers": [
+			"Un virus informático",
+			"Recomendaciones según tu actividad",
+			"Un formato de compresión de video",
+			"Un protocolo de red"
+		],
+		"correct_index": 1,
+		"feedback_correct": "¡Bien! Lo usan plataformas como YouTube, Netflix o TikTok.",
+		"feedback_incorrect": "No, esa opción no corresponde a este concepto."
+	},
+	{
+		"id": "cultura-digital-jovenes-dificil-03",
+		"category": "Cultura Digital",
+		"audience": "Jóvenes",
+		"difficulty": "Difícil",
+		"question": "¿Qué significa \"FOMO\"?",
+		"answers": [
+			"Una red social nueva",
+			"Un formato de imagen moderno",
+			"Temor a perderse algo (FOMO)",
+			"Un teléfono móvil nuevo"
+		],
+		"correct_index": 2,
+		"feedback_correct": "¡Correcto! Es un fenómeno psicológico amplificado por las redes sociales.",
+		"feedback_incorrect": "No, esa opción no corresponde al significado de FOMO."
+	},
+	{
+		"id": "cultura-digital-adultos-facil-01",
+		"category": "Cultura Digital",
+		"audience": "Adultos",
+		"difficulty": "Fácil",
+		"question": "¿Qué es una \"red social\"?",
+		"answers": [
+			"Un programa antivirus",
+			"Un aparato de hardware",
+			"Un lenguaje para programar",
+			"Plataforma para conectar personas"
+		],
+		"correct_index": 3,
+		"feedback_correct": "¡Correcto! Ejemplos: Facebook, Instagram, X (Twitter).",
+		"feedback_incorrect": "No, esa opción no corresponde a una red social."
+	},
+	{
+		"id": "cultura-digital-adultos-facil-02",
+		"category": "Cultura Digital",
+		"audience": "Adultos",
+		"difficulty": "Fácil",
+		"question": "¿Qué es una \"contraseña segura\"?",
+		"answers": [
+			"Clave difícil de adivinar",
+			"Una red wifi pública",
+			"Un antivirus instalado",
+			"Un archivo de texto"
+		],
+		"correct_index": 0,
+		"feedback_correct": "¡Bien! Combinar mayúsculas, números y símbolos la hace más segura.",
+		"feedback_incorrect": "No, esa opción no corresponde a una contraseña segura."
+	},
+	{
+		"id": "cultura-digital-adultos-facil-03",
+		"category": "Cultura Digital",
+		"audience": "Adultos",
+		"difficulty": "Fácil",
+		"question": "¿Qué es el \"correo electrónico\" (email)?",
+		"answers": [
+			"Una red social conocida",
+			"Enviar mensajes por internet",
+			"Un programa de edición de video",
+			"Un aparato electrónico"
+		],
+		"correct_index": 1,
+		"feedback_correct": "¡Correcto! Sigue siendo una herramienta clave de comunicación digital.",
+		"feedback_incorrect": "No, esa opción no corresponde al correo electrónico."
+	},
+	{
+		"id": "cultura-digital-adultos-normal-01",
+		"category": "Cultura Digital",
+		"audience": "Adultos",
+		"difficulty": "Normal",
+		"question": "¿Qué es la huella digital?",
+		"answers": [
+			"Un desbloqueo con huella",
+			"El peso de un archivo",
+			"El rastro que dejas en internet",
+			"Una firma electrónica"
+		],
+		"correct_index": 2,
+		"feedback_correct": "¡Exacto! Incluye publicaciones, búsquedas y actividad en línea.",
+		"feedback_incorrect": "No, esa opción se refiere a otro concepto de seguridad o identificación digital."
+	},
+	{
+		"id": "cultura-digital-adultos-normal-02",
+		"category": "Cultura Digital",
+		"audience": "Adultos",
+		"difficulty": "Normal",
+		"question": "¿Qué es la desinformación?",
+		"answers": [
+			"Cualquier noticia que no nos gusta",
+			"Un tipo de publicidad legal",
+			"Un género periodístico oficial",
+			"Noticias falsas para engañar"
+		],
+		"correct_index": 3,
+		"feedback_correct": "¡Correcto! Es un fenómeno relevante en la cultura digital actual.",
+		"feedback_incorrect": "No, esa opción no describe correctamente la desinformación."
+	},
+	{
+		"id": "cultura-digital-adultos-normal-03",
+		"category": "Cultura Digital",
+		"audience": "Adultos",
+		"difficulty": "Normal",
+		"question": "¿Qué es la \"brecha digital\"?",
+		"answers": [
+			"Desigualdad en el acceso a internet",
+			"Un error en el programa",
+			"Un virus de computadora",
+			"Un sistema de seguridad"
+		],
+		"correct_index": 0,
+		"feedback_correct": "¡Bien! Refleja diferencias socioeconómicas, geográficas o generacionales.",
+		"feedback_incorrect": "No, esa opción no corresponde a este concepto."
+	},
+	{
+		"id": "cultura-digital-adultos-dificil-01",
+		"category": "Cultura Digital",
+		"audience": "Adultos",
+		"difficulty": "Difícil",
+		"question": "¿Qué es una cámara de eco?",
+		"answers": [
+			"Un tipo de altavoz inteligente",
+			"Ver solo opiniones como las tuyas",
+			"Un algoritmo de compresión de audio",
+			"Un sistema de mensajería"
+		],
+		"correct_index": 1,
+		"feedback_correct": "¡Correcto! Los algoritmos de recomendación pueden intensificar este fenómeno.",
+		"feedback_incorrect": "No, esa opción no corresponde a este concepto."
+	},
+	{
+		"id": "cultura-digital-adultos-dificil-02",
+		"category": "Cultura Digital",
+		"audience": "Adultos",
+		"difficulty": "Difícil",
+		"question": "¿Qué es el derecho al olvido?",
+		"answers": [
+			"Un tipo de backup automático",
+			"Borrar el caché del navegador",
+			"Derecho a borrar tus datos",
+			"Un sistema de seguridad"
+		],
+		"correct_index": 2,
+		"feedback_correct": "¡Bien! Está reconocido en varias legislaciones de protección de datos.",
+		"feedback_incorrect": "No, esa opción no corresponde a este derecho."
+	},
+	{
+		"id": "cultura-digital-adultos-dificil-03",
+		"category": "Cultura Digital",
+		"audience": "Adultos",
+		"difficulty": "Difícil",
+		"question": "¿Qué es la \"economía de la atención\"?",
+		"answers": [
+			"Una moneda digital",
+			"Publicidad tradicional",
+			"Un algoritmo exclusivo de YouTube",
+			"Tu atención vendida a anunciantes"
+		],
+		"correct_index": 3,
+		"feedback_correct": "¡Correcto! Explica por qué las apps están diseñadas para mantenerte \"enganchado\".",
+		"feedback_incorrect": "No, esa opción no corresponde a este concepto."
+	}
+]

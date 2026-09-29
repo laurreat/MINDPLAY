@@ -1,0 +1,259 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scenes/options/options.gd" id="1_opt"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_row"]
+bg_color = Color(0.12, 0.13, 0.27, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.35, 0.37, 0.55, 1)
+corner_radius_top_left = 18
+corner_radius_top_right = 18
+corner_radius_bottom_right = 18
+corner_radius_bottom_left = 18
+content_margin_left = 24.0
+content_margin_top = 12.0
+content_margin_right = 24.0
+content_margin_bottom = 12.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_on"]
+bg_color = Color(0.485, 0.42, 1, 1)
+corner_radius_top_left = 24
+corner_radius_top_right = 24
+corner_radius_bottom_right = 24
+corner_radius_bottom_left = 24
+content_margin_left = 24.0
+content_margin_top = 10.0
+content_margin_right = 24.0
+content_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_off"]
+bg_color = Color(0.2, 0.21, 0.38, 1)
+corner_radius_top_left = 24
+corner_radius_top_right = 24
+corner_radius_bottom_right = 24
+corner_radius_bottom_left = 24
+content_margin_left = 24.0
+content_margin_top = 10.0
+content_margin_right = 24.0
+content_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_link"]
+bg_color = Color(0, 0, 0, 0)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.45, 0.47, 0.7, 1)
+corner_radius_top_left = 24
+corner_radius_top_right = 24
+corner_radius_bottom_right = 24
+corner_radius_bottom_left = 24
+content_margin_left = 24.0
+content_margin_top = 10.0
+content_margin_right = 24.0
+content_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_toggle_hover"]
+bg_color = Color(0.17, 0.18, 0.35, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.62, 0.58, 1, 1)
+corner_radius_top_left = 24
+corner_radius_top_right = 24
+corner_radius_bottom_right = 24
+corner_radius_bottom_left = 24
+content_margin_left = 24.0
+content_margin_top = 10.0
+content_margin_right = 24.0
+content_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_focus_ring"]
+draw_center = false
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(1, 1, 1, 0.95)
+corner_radius_top_left = 26
+corner_radius_top_right = 26
+corner_radius_bottom_right = 26
+corner_radius_bottom_left = 26
+expand_margin_left = 3.0
+expand_margin_top = 3.0
+expand_margin_right = 3.0
+expand_margin_bottom = 3.0
+
+[node name="Options" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_opt")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.07, 0.075, 0.17, 1)
+
+[node name="Margin" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 48
+theme_override_constants/margin_top = 32
+theme_override_constants/margin_right = 48
+theme_override_constants/margin_bottom = 32
+
+[node name="Content" type="VBoxContainer" parent="Margin"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Header" type="HBoxContainer" parent="Margin/Content"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="BackBtn" type="Button" parent="Margin/Content/Header"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.9, 0.91, 0.97, 1)
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_link")
+theme_override_styles/hover = SubResource("StyleBoxFlat_off")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_off")
+	theme_override_styles/focus = SubResource("StyleBoxFlat_focus_ring")
+text = "←"
+
+[node name="TitleLabel" type="Label" parent="Margin/Content/Header"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 36
+text = "Opciones"
+horizontal_alignment = 1
+
+[node name="MusicRow" type="PanelContainer" parent="Margin/Content"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_row")
+
+[node name="MusicHBox" type="HBoxContainer" parent="Margin/Content/MusicRow"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="MusicLabel" type="Label" parent="Margin/Content/MusicRow/MusicHBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.9, 0.91, 0.97, 1)
+theme_override_font_sizes/font_size = 22
+text = "Música"
+vertical_alignment = 1
+
+[node name="MusicToggle" type="Button" parent="Margin/Content/MusicRow/MusicHBox"]
+unique_name_in_owner = true
+layout_mode = 2
+custom_minimum_size = Vector2(110, 0)
+toggle_mode = true
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_off")
+	theme_override_styles/hover = SubResource("StyleBoxFlat_toggle_hover")
+	theme_override_styles/pressed = SubResource("StyleBoxFlat_on")
+	theme_override_styles/focus = SubResource("StyleBoxFlat_focus_ring")
+text = "OFF"
+
+[node name="SfxRow" type="PanelContainer" parent="Margin/Content"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_row")
+
+[node name="SfxHBox" type="HBoxContainer" parent="Margin/Content/SfxRow"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="SfxLabel" type="Label" parent="Margin/Content/SfxRow/SfxHBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.9, 0.91, 0.97, 1)
+theme_override_font_sizes/font_size = 22
+text = "Sonido"
+vertical_alignment = 1
+
+[node name="SfxToggle" type="Button" parent="Margin/Content/SfxRow/SfxHBox"]
+unique_name_in_owner = true
+layout_mode = 2
+custom_minimum_size = Vector2(110, 0)
+toggle_mode = true
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_off")
+	theme_override_styles/hover = SubResource("StyleBoxFlat_toggle_hover")
+	theme_override_styles/pressed = SubResource("StyleBoxFlat_on")
+	theme_override_styles/focus = SubResource("StyleBoxFlat_focus_ring")
+text = "OFF"
+
+[node name="LangRow" type="PanelContainer" parent="Margin/Content"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_row")
+
+[node name="LangHBox" type="HBoxContainer" parent="Margin/Content/LangRow"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="LangLabel" type="Label" parent="Margin/Content/LangRow/LangHBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.9, 0.91, 0.97, 1)
+theme_override_font_sizes/font_size = 22
+text = "Idioma"
+vertical_alignment = 1
+
+[node name="LangOption" type="OptionButton" parent="Margin/Content/LangRow/LangHBox"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+
+[node name="HowToRow" type="PanelContainer" parent="Margin/Content"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_row")
+
+[node name="HowToHBox" type="HBoxContainer" parent="Margin/Content/HowToRow"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="HowToLabel" type="Label" parent="Margin/Content/HowToRow/HowToHBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.9, 0.91, 0.97, 1)
+theme_override_font_sizes/font_size = 22
+text = "Cómo jugar"
+vertical_alignment = 1
+
+[node name="HowToBtn" type="Button" parent="Margin/Content/HowToRow/HowToHBox"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.9, 0.91, 0.97, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_link")
+theme_override_styles/hover = SubResource("StyleBoxFlat_off")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_off")
+	theme_override_styles/focus = SubResource("StyleBoxFlat_focus_ring")
+text = "Abrir →"
+
+[node name="FooterLabel" type="Label" parent="Margin/Content"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.65, 0.66, 0.8, 1)
+theme_override_font_sizes/font_size = 18
+text = "¡Disfruta el juego!"
+horizontal_alignment = 1

@@ -1,0 +1,182 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scenes/main/main_menu.gd" id="1_menu"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_play_n"]
+bg_color = Color(0.485, 0.42, 1, 1)
+corner_radius_top_left = 28
+corner_radius_top_right = 28
+corner_radius_bottom_right = 28
+corner_radius_bottom_left = 28
+content_margin_left = 32.0
+content_margin_top = 16.0
+content_margin_right = 32.0
+content_margin_bottom = 16.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_play_h"]
+bg_color = Color(0.56, 0.5, 1, 1)
+corner_radius_top_left = 28
+corner_radius_top_right = 28
+corner_radius_bottom_right = 28
+corner_radius_bottom_left = 28
+content_margin_left = 32.0
+content_margin_top = 16.0
+content_margin_right = 32.0
+content_margin_bottom = 16.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_play_p"]
+bg_color = Color(0.4, 0.34, 0.9, 1)
+corner_radius_top_left = 28
+corner_radius_top_right = 28
+corner_radius_bottom_right = 28
+corner_radius_bottom_left = 28
+content_margin_left = 32.0
+content_margin_top = 16.0
+content_margin_right = 32.0
+content_margin_bottom = 16.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dark_n"]
+bg_color = Color(0.12, 0.13, 0.27, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.45, 0.47, 0.7, 1)
+corner_radius_top_left = 28
+corner_radius_top_right = 28
+corner_radius_bottom_right = 28
+corner_radius_bottom_left = 28
+content_margin_left = 32.0
+content_margin_top = 14.0
+content_margin_right = 32.0
+content_margin_bottom = 14.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dark_h"]
+bg_color = Color(0.17, 0.18, 0.35, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.6, 0.62, 0.85, 1)
+corner_radius_top_left = 28
+corner_radius_top_right = 28
+corner_radius_bottom_right = 28
+corner_radius_bottom_left = 28
+content_margin_left = 32.0
+content_margin_top = 14.0
+content_margin_right = 32.0
+content_margin_bottom = 14.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dark_p"]
+bg_color = Color(0.09, 0.1, 0.22, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.45, 0.47, 0.7, 1)
+corner_radius_top_left = 28
+corner_radius_top_right = 28
+corner_radius_bottom_right = 28
+corner_radius_bottom_left = 28
+content_margin_left = 32.0
+content_margin_top = 14.0
+content_margin_right = 32.0
+content_margin_bottom = 14.0
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_menu")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.07, 0.075, 0.17, 1)
+
+[node name="Center" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -240.0
+offset_top = -210.0
+offset_right = 240.0
+offset_bottom = 210.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 18
+alignment = 1
+
+[node name="TitleRow" type="HBoxContainer" parent="Center"]
+layout_mode = 2
+alignment = 1
+theme_override_constants/separation = 0
+
+[node name="MindLabel" type="Label" parent="Center/TitleRow"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 64
+text = "MIND"
+
+[node name="PlayLabel" type="Label" parent="Center/TitleRow"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.62, 0.58, 1, 1)
+theme_override_font_sizes/font_size = 64
+text = "PLAY"
+
+[node name="SubtitleLabel" type="Label" parent="Center"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.85, 0.86, 0.95, 1)
+theme_override_font_sizes/font_size = 20
+text = "Pon a prueba lo que sabes"
+horizontal_alignment = 1
+
+[node name="Spacer" type="Control" parent="Center"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 12)
+
+[node name="StartBtn" type="Button" parent="Center"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_play_n")
+theme_override_styles/hover = SubResource("StyleBoxFlat_play_h")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_play_p")
+theme_override_styles/focus = SubResource("StyleBoxFlat_play_h")
+text = "▶  JUGAR"
+
+[node name="OptionsBtn" type="Button" parent="Center"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.9, 0.91, 0.97, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_dark_n")
+theme_override_styles/hover = SubResource("StyleBoxFlat_dark_h")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_dark_p")
+theme_override_styles/focus = SubResource("StyleBoxFlat_dark_h")
+text = "⚙  OPCIONES"
+
+[node name="QuitBtn" type="Button" parent="Center"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.9, 0.91, 0.97, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_dark_n")
+theme_override_styles/hover = SubResource("StyleBoxFlat_dark_h")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_dark_p")
+theme_override_styles/focus = SubResource("StyleBoxFlat_dark_h")
+text = "↩  SALIR"

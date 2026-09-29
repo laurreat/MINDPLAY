@@ -1,0 +1,5 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+# Builds locales (el ejecutable se distribuye por Releases, no en git)
+/build/

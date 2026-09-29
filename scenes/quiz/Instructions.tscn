@@ -1,0 +1,261 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scenes/quiz/instructions.gd" id="1_inst"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sheet"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 26
+corner_radius_top_right = 26
+corner_radius_bottom_right = 26
+corner_radius_bottom_left = 26
+content_margin_left = 40.0
+content_margin_top = 32.0
+content_margin_right = 40.0
+content_margin_bottom = 32.0
+shadow_color = Color(0.3, 0.3, 0.5, 0.15)
+shadow_size = 12
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_badge"]
+bg_color = Color(0.485, 0.42, 1, 1)
+corner_radius_top_left = 24
+corner_radius_top_right = 24
+corner_radius_bottom_right = 24
+corner_radius_bottom_left = 24
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_btn"]
+bg_color = Color(0.485, 0.42, 1, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+content_margin_left = 48.0
+content_margin_top = 16.0
+content_margin_right = 48.0
+content_margin_bottom = 16.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_back"]
+bg_color = Color(1, 1, 1, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.7, 0.71, 0.85, 1)
+corner_radius_top_left = 28
+corner_radius_top_right = 28
+corner_radius_bottom_right = 28
+corner_radius_bottom_left = 28
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_start_hover"]
+bg_color = Color(0.58, 0.52, 1, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+content_margin_left = 48.0
+content_margin_top = 16.0
+content_margin_right = 48.0
+content_margin_bottom = 16.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_back_hover"]
+bg_color = Color(0.88, 0.88, 0.94, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.485, 0.42, 1, 1)
+corner_radius_top_left = 28
+corner_radius_top_right = 28
+corner_radius_bottom_right = 28
+corner_radius_bottom_left = 28
+
+[node name="Instructions" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_inst")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.9, 0.9, 0.96, 1)
+
+[node name="Margin" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 64
+theme_override_constants/margin_top = 40
+theme_override_constants/margin_right = 64
+theme_override_constants/margin_bottom = 40
+
+[node name="Content" type="VBoxContainer" parent="Margin"]
+layout_mode = 2
+theme_override_constants/separation = 22
+alignment = 1
+
+[node name="Header" type="HBoxContainer" parent="Margin/Content"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="BackBtn" type="Button" parent="Margin/Content/Header"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(56, 56)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.3, 0.3, 0.5, 1)
+theme_override_font_sizes/font_size = 26
+theme_override_styles/normal = SubResource("StyleBoxFlat_back")
+theme_override_styles/hover = SubResource("StyleBoxFlat_back_hover")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_back")
+theme_override_styles/focus = SubResource("StyleBoxFlat_back_hover")
+text = "←"
+
+[node name="TitleLabel" type="Label" parent="Margin/Content/Header"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.25, 0.25, 0.45, 1)
+theme_override_font_sizes/font_size = 40
+text = "Instrucciones"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Sheet" type="PanelContainer" parent="Margin/Content"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_sheet")
+
+[node name="Steps" type="VBoxContainer" parent="Margin/Content/Sheet"]
+layout_mode = 2
+theme_override_constants/separation = 22
+
+[node name="Step1" type="HBoxContainer" parent="Margin/Content/Sheet/Steps"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Badge1" type="PanelContainer" parent="Margin/Content/Sheet/Steps/Step1"]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_badge")
+
+[node name="Num1" type="Label" parent="Margin/Content/Sheet/Steps/Step1/Badge1"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 24
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Text1" type="Label" parent="Margin/Content/Sheet/Steps/Step1"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.25, 0.25, 0.35, 1)
+theme_override_font_sizes/font_size = 23
+text = "Elige una categoría."
+autowrap_mode = 2
+vertical_alignment = 1
+
+[node name="Step2" type="HBoxContainer" parent="Margin/Content/Sheet/Steps"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Badge2" type="PanelContainer" parent="Margin/Content/Sheet/Steps/Step2"]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_badge")
+
+[node name="Num2" type="Label" parent="Margin/Content/Sheet/Steps/Step2/Badge2"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 24
+text = "2"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Text2" type="Label" parent="Margin/Content/Sheet/Steps/Step2"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.25, 0.25, 0.35, 1)
+theme_override_font_sizes/font_size = 23
+text = "Lee la pregunta y selecciona una opción."
+autowrap_mode = 2
+vertical_alignment = 1
+
+[node name="Step3" type="HBoxContainer" parent="Margin/Content/Sheet/Steps"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Badge3" type="PanelContainer" parent="Margin/Content/Sheet/Steps/Step3"]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_badge")
+
+[node name="Num3" type="Label" parent="Margin/Content/Sheet/Steps/Step3/Badge3"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 24
+text = "3"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Text3" type="Label" parent="Margin/Content/Sheet/Steps/Step3"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.25, 0.25, 0.35, 1)
+theme_override_font_sizes/font_size = 23
+text = "Recibe la retroalimentación de tu respuesta."
+autowrap_mode = 2
+vertical_alignment = 1
+
+[node name="Step4" type="HBoxContainer" parent="Margin/Content/Sheet/Steps"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Badge4" type="PanelContainer" parent="Margin/Content/Sheet/Steps/Step4"]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_badge")
+
+[node name="Num4" type="Label" parent="Margin/Content/Sheet/Steps/Step4/Badge4"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 24
+text = "4"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Text4" type="Label" parent="Margin/Content/Sheet/Steps/Step4"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.25, 0.25, 0.35, 1)
+theme_override_font_sizes/font_size = 23
+text = "Completa todas las preguntas y descubre tu resultado."
+autowrap_mode = 2
+vertical_alignment = 1
+
+[node name="StartBtn" type="Button" parent="Margin/Content"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(280, 64)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_btn")
+theme_override_styles/hover = SubResource("StyleBoxFlat_start_hover")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_btn")
+theme_override_styles/focus = SubResource("StyleBoxFlat_start_hover")
+text = "¡Comenzar!"
+
+[node name="CheerLabel" type="Label" parent="Margin/Content"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.55, 0.56, 0.7, 1)
+theme_override_font_sizes/font_size = 18
+text = "¡Tú puedes!"
+horizontal_alignment = 1
